@@ -1,0 +1,28 @@
+🧾 Code: Average Calculator (Python) 🧾
+
+___________________________________________________________________
+def average(numbers):
+    if not numbers:
+        return 0
+    return sum(numbers) / len(numbers)
+
+# Example usage
+grades = [15, 18, 12, 14, 17]
+avg = average(grades)
+print(f"The average grade is: {avg:.2f}")
+__________________________________________________________________
+
+
+📌 What does this code do? 📌
+
+This code defines a function called "average" that calculates the average of a list of numbers. Here's how it works:
+
+- 🧠 "sum(numbers)" adds up all the elements in the list.
+
+- 📏 "len(numbers)" counts how many elements are in the list.
+
+- 📤 The result is the sum divided by the number of elements — in other words, the average.
+
+- 📋 We then use this function with a list of grades "([15, 18, 12, 14, 17])".
+
+- 🖨️ The result is printed with two decimal places using ":.2f".
