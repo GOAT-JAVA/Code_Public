@@ -1,0 +1,30 @@
+🧾 Palindrome Checker (Python) 🧾
+
+________________________________________________________________________________________________________________________________________
+
+def is_palindrome(s):
+
+    s = s.replace(" ", "").lower()
+    
+    return s == s[::-1]
+
+word = "Racecar"
+if is_palindrome(word):
+    print(f'"{word}" is a palindrome.')
+else:
+    print(f'"{word}" is not a palindrome.')
+_______________________________________________________________________________________________________________________________________
+
+
+📌 What does this code do? 📌
+
+This Python script checks whether a given string is a palindrome. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward (e.g., "racecar" or "madam").
+The function "is_palindrome()" works as follows:
+
+  - It first removes any spaces and converts the string to lowercase to ensure the comparison is case-insensitive.
+
+  - Then, it compares the original string with its reversed version (achieved using slicing "[::-1]").
+
+  - If the string is the same forwards and backwards, the function returns "True" (indicating it's a palindrome); otherwise, it returns "False".
+
+The script then checks if the word "Racecar" is a palindrome and prints the result.
