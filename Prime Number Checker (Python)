@@ -1,4 +1,4 @@
-Code: Prime Number Checker (Python)
+🧾 Prime Number Checker (Python) 🧾
 
 _______________________________________________________________________________________________________________________________________
 
@@ -17,7 +17,7 @@ else:
     print(f"{num} is not a prime number.")
 _______________________________________________________________________________________________________________________________________
 
-📌 What does this code do?
+📌 What does this code do? 📌
 
 This Python script checks whether a given number is prime. Here's how it works:
 
